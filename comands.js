@@ -1,0 +1,3 @@
+window.open{
+alert('hi');
+};
