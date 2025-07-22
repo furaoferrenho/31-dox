@@ -1,4 +1,8 @@
 
+body {
+	color: white;
+ }
+
 dialog  {
  position: relative;
   background-color: blue;
