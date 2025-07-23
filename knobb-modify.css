@@ -6,7 +6,15 @@ body {
 dialog  {
  position: relative;
   background-color: blue;
-  text; color: white;
+  color: white;
   height: 15px;
-  text-align: fixed:start;
+  text-align:center;
+}
+ #box {
+ outline-color: blue;
+ display:grid;
+
+ }
+#box > p {
+  text-align: center;
 }
