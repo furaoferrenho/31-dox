@@ -1,3 +1,3 @@
-window.open{
-alert('hi');
+function comandos(){
+alert(document.getElementById('comando').value);
 };

@@ -6,7 +6,17 @@ body {
 dialog  {
  position: relative;
   background-color: blue;
-  text; color: white;
+  color: white;
   height: 15px;
-  text-align: fixed:start;
+  text-align:center;
+}
+ #box {
+ outline-color: blue;
+ display:grid;
+grid-template-columns: minmax(auto, 200px);
+grid-column: 1;
+grid-row: 2;
+ }
+#box2{
+
 }
