@@ -4,11 +4,14 @@ function comandos(){
 var comander = prox.split(" ");
 switch(comander[0]){
     case "calculo":
-     catalogo(comander[1]);
+     catalogo(comander[comander.length -1]);
     break;
     case "reload":
         window.reload();
         break;
+        case "git":
+            origem(comander[comander.length -1 ])
+            break;
         default:
    alert("comando não encontrado");
         break;
@@ -22,5 +25,15 @@ switch(sites){
         case "pib":
        window.open("https://furaoferrenho.github.io/ADM-2-C-sui-a-geo/");
        break;
+}
+}
+function origem(arquivo){
+switch(arquivo){
+    case "fatores":
+        window.open("https://github.com/furaoferrenho/31-dox");
+        break;
+        case "pib":
+            window.open("https://github.com/furaoferrenho/ADM-2-C-sui-a-geo")
+            break;
 }
 }
