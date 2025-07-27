@@ -26,7 +26,7 @@ dialog{
   
 }
 .dimencionar{
-  transform: scale(1,1);
+  transform: scale(1cap,1cap);
 }
 #sites:hover{
   color: red;
