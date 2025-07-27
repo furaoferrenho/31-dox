@@ -20,11 +20,13 @@ dialog{
  outline-color: blue;
  display:grid;
  size: 100cap;
-
  }
 #box > p {
   text-align: center;
   
+}
+.dimencionar{
+  transform: scale(1,1);
 }
 #sites:hover{
   color: red;
