@@ -9,6 +9,9 @@ function vamo(){
     else if (numero < 0){
         alert("por favor coloque um numero positivo")
     }
+    else if (numero > 999999){
+        alert("coloque um numero menor")
+    }
    else{
     document.getElementById('resultado').innerText = numeros(numero);
    }
