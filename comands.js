@@ -12,6 +12,10 @@ switch(comander[0]){
         case "git":
             origem(comander[comander.length -1 ])
             break;
+
+        case "honk":
+            pato(comander[comander.lehng -1 ])
+            break;
         default:
    alert("comando não encontrado");
         break;
@@ -35,5 +39,12 @@ switch(arquivo){
         case "pib":
             window.open("https://github.com/furaoferrenho/ADM-2-C-sui-a-geo")
             break;
+}
+}
+function pato(Honks){
+switch( Honks){
+    default:
+        alert("honk");
+        break;
 }
 }

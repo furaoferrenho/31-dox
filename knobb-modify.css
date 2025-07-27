@@ -1,22 +1,30 @@
 
 body {
 	color: white;
+ position: relative;
+ top: -10%;
+ left: 0.4%;
+ font-size:1.5cap;
  }
 
-dialog  {
- position: relative;
+dialog{
   background-color: blue;
   color: white;
   height: 15px;
   text-align:center;
+  position:fixed;
+  bottom:0px;
 }
+
  #box {
  outline-color: blue;
  display:grid;
+ size: 100cap;
 
  }
 #box > p {
   text-align: center;
+  
 }
 #sites:hover{
   color: red;
