@@ -4,9 +4,13 @@ body {
  position: relative;
  top: -10%;
  left: 0.4%;
- font-size:1.5cap;
  }
-
+.conteudo{
+  text-align: center;
+  text-size-adjust: fill;
+  object-fit: fill;
+  transform: scale(150%,fill);
+}
 dialog{
   background-color: blue;
   color: white;
@@ -15,7 +19,6 @@ dialog{
   position:fixed;
   bottom:0px;
 }
-
  #box {
  outline-color: blue;
  display:grid;
@@ -24,12 +27,7 @@ dialog{
 #box > p {
   text-align: center;
 }
-#box > input{
-  background-color: gray;
-}
-.dimen{
-  transform: scale(100%,100%);
-}
+
 #sites:hover{
   color: red;
 }
