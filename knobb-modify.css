@@ -28,7 +28,7 @@ dialog{
   text-align: center;
 }
 details:open{
-font-size: x-larger;
+font-size: 200%;
 }
 #sites:hover{
   color: red;
